@@ -47,11 +47,11 @@ describe('Test Get Workload Function', () => {
 
   test("it should be able to return an object with all the teachers' workload", async () => {
     const expectedOutput = {
-      'teacher1@gmail.com': [
+      'Teacher 1': [
         { subjectCode: 'ENG ', subjectName: ' English', numberOfClasses: 1 },
         { subjectCode: 'MATH ', subjectName: ' Maths', numberOfClasses: 1 },
       ],
-      'teacher2@gmail.com': [
+      'Teacher 2': [
         { subjectCode: 'ENG ', subjectName: ' English', numberOfClasses: 1 },
         { subjectCode: 'MATH ', subjectName: ' Maths', numberOfClasses: 1 },
       ],

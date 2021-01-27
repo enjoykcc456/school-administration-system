@@ -56,11 +56,11 @@ describe('Test The Teacher Workload Report API - /api/reports/workload', () => {
 
   test('it should be able to get the response with workload of all teachers', async () => {
     const expectedOutput = {
-      'teacher1@gmail.com': [
+      'Teacher 1': [
         { subjectCode: 'ENG ', subjectName: ' English', numberOfClasses: 2 },
         { subjectCode: 'MATH ', subjectName: ' Maths', numberOfClasses: 2 },
       ],
-      'teacher2@gmail.com': [
+      'Teacher 2': [
         { subjectCode: 'ENG ', subjectName: ' English', numberOfClasses: 2 },
         { subjectCode: 'MATH ', subjectName: ' Maths', numberOfClasses: 2 },
       ],
